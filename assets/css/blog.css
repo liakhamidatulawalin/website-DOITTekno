@@ -1,0 +1,29 @@
+.col-md-8 p {
+    align-self: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #57586e;
+}
+
+.btn-blog {
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    background: #005e9b;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    float: right;
+}
+
+.btn-blog:hover {
+    background: #003558;
+}
+
+@media screen and (max-width:600px) {
+    .btn-blog {
+        float: left;
+    }
+}

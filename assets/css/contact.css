@@ -1,0 +1,24 @@
+.contact-us h1 {
+    margin-top: 100px;
+    font-weight: 800;
+    font-size: 60px;
+    color: #003558;
+}
+
+.img-qr {
+    margin-top: 70px;
+    width: 300px;
+}
+
+.code_qr h5 {
+    margin-top: 70px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #003558;
+}
+
+.code_qr p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #57586e;
+}

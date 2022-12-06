@@ -1,0 +1,188 @@
+body {
+    display: inline;
+}
+
+.cover-about {
+    width: 80%;
+}
+
+.header-about {
+    margin-top: 100px;
+}
+
+.header-about h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: #003558;
+}
+
+.btn-contact {
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: #005e9b;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.head-about h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #003558;
+}
+
+.about-text p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #57586e;
+}
+
+.about-text h4 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #003558;
+}
+
+#visi-misi {
+    margin-top: 100px;
+}
+
+.relations h2 {
+    font-weight: 800;
+    font-size: 35px;
+    color: #003558;
+    margin-top: 140px;
+}
+
+.card-relation {
+    width: 250px;
+    height: 250px;
+}
+
+/* todo screen 992px */
+@media screen and (max-width:992px) {
+    .header-about h1 {
+        font-size: 45px;
+    }
+
+    .head-about h3 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-text h4 {
+        font-size: 20px;
+    }
+
+    .relations {
+        font-size: 30px;
+    }
+
+    .card-relation {
+        width: 180px;
+        height: 180px;
+    }
+
+    .card .card-img-top {
+        width: 100%;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+
+}
+
+/* todo ==> screen 600px */
+@media screen and (max-width:600px) {
+    .about {
+        margin-top: 40px;
+    }
+
+    .cover-about {
+        width: 100%;
+    }
+
+    .header-about h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header-about p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    a .btn-contact {
+        margin-left: 37%;
+    }
+
+    .head-about h3 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    .about-text h4 {
+        font-size: 18px;
+    }
+
+    .relations {
+        font-size: 30px;
+    }
+
+    #visi-misi {
+        margin-top: 40px;
+    }
+
+    .col-md-3 {
+        margin-top: 20px;
+    }
+
+    .relations h2 {
+        margin-top: 30px;
+    }
+
+    .card-relation {
+        width: 180px;
+        height: 180px;
+        margin: 5px;
+    }
+
+    .card .card-img-top {
+        width: 100%;
+    }
+
+    .footer-text {
+        font-size: 14px;
+    }
+}
+
+/* todo ==> screen 375px */
+@media screen and (max-width:427px) {
+    a .btn-contact {
+        margin-left: 28%;
+    }
+
+    .card-relation {
+        width: 130px;
+        height: 130px;
+        margin: 5px;
+    }
+
+    .card .card-img-top {
+        width: 100%;
+    }
+}

@@ -1,0 +1,30 @@
+.navbar-brand img {
+  width: 50px;
+}
+
+.nav-link {
+  color: #292932;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 30px;
+}
+
+.nav-link:hover {
+  color: #003558;
+  font-weight: 600;
+}
+
+.btn-nav {
+  width: 150px;
+  height: 40px;
+  background: #005e9b;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-nav:hover {
+  background: #003558;
+}

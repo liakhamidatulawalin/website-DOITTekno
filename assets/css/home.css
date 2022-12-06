@@ -1,0 +1,536 @@
+.cover {
+  position: relative;
+}
+
+.cover-img {
+  width: 100%;
+  background-image: linear-gradient(180deg, white, #003558);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.6;
+}
+
+.navbar-brand img {
+  width: 75px;
+}
+
+.img-header {
+  position: absolute;
+}
+
+.img-header img {
+  width: 100vh;
+  opacity: 0.5;
+  align-items: center;
+}
+
+.header img {
+  width: 220px;
+}
+
+.header h1 {
+  font-weight: 800;
+  font-size: 60px;
+  color: #003558;
+}
+
+.header p {
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #003558dd;
+}
+
+.btn-project {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  background: #005e9b;
+  border: none;
+  border-radius: 30px;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-project:hover {
+  background: #003558;
+}
+
+.services {
+  margin-top: 320px;
+}
+
+.services h3 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #003558;
+}
+
+.services p {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #003558dd;
+}
+
+.card {
+  margin-top: 40px;
+  height: 100%;
+  background: #ffffff;
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+}
+
+.bg-circle {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: #ffffff;
+  box-shadow: 0px 6px 20px 2px rgba(0, 0, 0, 0.1);
+}
+
+.bg-circle img {
+  width: 45px;
+}
+
+.card h4 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.card p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #57586e;
+}
+
+.services-map {
+  margin-top: 100px;
+}
+
+.sm-header h3 {
+  font-weight: 700;
+  font-size: 68px;
+  color: #003558;
+}
+
+.sm-text p {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #57586e;
+}
+
+.bg-map {
+  margin-top: 40px;
+  padding: 90px;
+  background: #f9f9f9;
+}
+
+.heading-map {
+  font-weight: 700;
+  font-size: 26px;
+  color: #005e9b;
+}
+
+.body-map {
+  font-weight: 400;
+  font-size: 16px;
+  color: #555555;
+}
+
+.portfolios {
+  margin-top: 100px;
+}
+
+.portfolio-heading {
+  font-weight: 600;
+  font-size: 40px;
+  color: #003558;
+}
+
+.btn-portfolios {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  background: none;
+  border: 2px solid #003558;
+  border-radius: 30px;
+  font-size: 14px;
+  color: #003558;
+  font-weight: 500;
+}
+
+.btn-portfolios:hover {
+  background: #003558;
+  color: white;
+}
+
+.cards {
+  margin-top: 40px;
+  background: #ffffff;
+  box-shadow: 5px 10px 20px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  border: none;
+  padding: 40px;
+}
+
+.picture img {
+  width: 50px;
+}
+
+.profile {
+  margin-top: 40px;
+}
+
+.name-rev {
+  text-align: left;
+}
+
+.name-rev h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #000000;
+}
+
+.name-rev p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #444444;
+}
+
+.review {
+  margin-top: 100px;
+}
+
+.review h3 {
+  font-weight: 700;
+  font-size: 68px;
+  color: #003558;
+}
+
+.review p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #57586e;
+}
+
+iframe {
+  margin-top: 8px;
+  width: 350px;
+  height: 220px;
+}
+
+/* todo Device Max 992 */
+@media screen and (max-width:992px) {
+  .btn-nav {
+    width: 100px;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
+
+  .header .header-logo {
+    width: 150px;
+  }
+
+  .header h1 {
+    font-size: 45px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .services {
+    margin-top: 80px;
+  }
+
+  .services h3 {
+    font-size: 35px;
+  }
+
+  .services p {
+    font-size: 14px;
+  }
+
+  .col-md-4 {
+    padding: 20px;
+  }
+
+  .sm-header h3 {
+    width: 340px;
+    font-size: 45px;
+  }
+
+  .sm-text p {
+    font-size: 14px;
+  }
+
+  .heading-map {
+    margin-top: -60px;
+  }
+
+  .body-map {
+    font-size: 14px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .footer-title {
+    width: 100px;
+  }
+
+  .footer-text h2 {
+    width: 200px;
+  }
+
+  .review h3 {
+    font-size: 50px;
+  }
+
+  .review p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #57586e;
+  }
+
+  .cards h6 {
+    font-size: 14px;
+  }
+
+  .product ul {
+    margin-left: -32px;
+  }
+
+  .name-rev {
+    text-align: left;
+  }
+
+  .name-rev h5 {
+    font-size: 16px;
+  }
+
+  .name-rev p {
+    font-size: 14px;
+  }
+
+  iframe {
+    margin-top: 8px;
+    width: 295px;
+    height: 190px;
+  }
+}
+
+/* todo Device Max 600 */
+@media screen and (max-width:600px) {
+  .navbar-brand .logo-img {
+    width: 70px;
+  }
+
+  .header .header-logo {
+    display: none;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 12px;
+  }
+
+  .col-md-4 {
+    padding: 20px;
+  }
+
+  .services h3 {
+    font-size: 30px;
+  }
+
+  .sm-header h3 {
+    font-size: 30px;
+  }
+
+  .portfolio-heading {
+    font-size: 30px;
+  }
+
+  .row .card {
+    margin-top: -10px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .col-3 .inform {
+    margin-left: -70px;
+  }
+
+  .footer-title {
+    margin-top: 20px;
+  }
+
+  .review h3 {
+    font-size: 30px;
+  }
+
+  .review p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #57586e;
+  }
+
+  .bg-map {
+    margin-left: -15px;
+  }
+
+  .cards {
+    padding: 30px;
+    margin-top: -15px;
+  }
+
+  .cards h6 {
+    font-size: 14px;
+  }
+
+  .product ul {
+    margin-left: -29px;
+  }
+
+  .footer-contact {
+    margin-top: 16px;
+    margin-left: -2px;
+  }
+
+  .heading-map {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .bg-map {
+    margin: 10px 0px 10px 0px;
+    padding: 45px;
+  }
+
+  .body-map {
+    font-size: 14px;
+  }
+
+  .name-rev {
+    text-align: left;
+  }
+
+  .name-rev h5 {
+    font-size: 16px;
+  }
+
+  .name-rev p {
+    font-size: 14px;
+  }
+
+  iframe {
+    margin-top: 8px;
+    width: 399px;
+    height: 290px;
+  }
+}
+
+/* todo Device Max 375 */
+@media screen and (max-width:375px) {
+  .cover .cover-img {
+    display: none;
+  }
+
+  .btn-project {
+    width: 120px;
+    height: 40px;
+    background: #005e9b;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .header-logo {
+    width: 20px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  .btn-project {
+    margin-top: 10px;
+  }
+
+  .services h3 {
+    font-size: 26px;
+  }
+
+  .services p {
+    font-size: 14px;
+  }
+
+  .sm-header h3 {
+    font-size: 26px;
+  }
+
+  .sm-text p {
+    font-size: 14px;
+  }
+
+  .col-md-8 {
+    padding: 8px;
+  }
+
+  .portfolio-heading {
+    font-size: 26px;
+  }
+
+  .btn-portfolios {
+    width: 120px;
+  }
+
+  .review h6 {
+    font-size: 14px;
+  }
+
+  .review h3 {
+    font-size: 26px;
+  }
+
+  iframe {
+    margin-top: 8px;
+    width: 280px;
+    height: 200px;
+  }
+
+  .container h6 {
+    font-size: 16px;
+  }
+}
